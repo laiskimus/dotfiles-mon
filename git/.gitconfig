@@ -1,0 +1,23 @@
+[user]
+	email = laiskimus@gmail.com
+	name = Mikko Salmi
+[alias]
+       co = checkout
+       ci = commit
+       st = status -bs
+       br = branch
+       hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+       graph = log --graph --stat --pretty=oneline --abbrev-commit
+       lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[color "diff"]
+        whitespace = red reverse
+[color]
+        ui = true
+#[push]
+#        default = simple
+#[credential]
+#        helper = cache --timeout=3600
+[init]
+        defaultBranch = main
+[pull]
+        rebase = false
