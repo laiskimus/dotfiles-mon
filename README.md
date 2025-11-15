@@ -3,5 +3,5 @@
 ## prerequisite
 ```bash
 # Software
-$ sudo apt install stow lazygit
+$ sudo apt install git stow lazygit
 ```
